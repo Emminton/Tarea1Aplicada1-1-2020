@@ -97,8 +97,8 @@ namespace EjercicioAplicada1__1_2020
                              break;
                          case 12:
                              Console.WriteLine("Ejercicio 12");
-                             DiaDeSemana da = new DiaDeSemana();
-                             da.MedirEdad();
+                             DiaDeSemana daa = new DiaDeSemana();
+                             daa.MedirEdad();
                              break;
                          case 13:
                              Console.WriteLine("Acaba de Salir....");
