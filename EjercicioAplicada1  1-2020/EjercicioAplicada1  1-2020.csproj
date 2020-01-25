@@ -50,6 +50,13 @@
     <Compile Include="Tarea.1\Poligono.cs" />
     <Compile Include="Tarea.1\Radianes.cs" />
     <Compile Include="Tarea.1\Temperatura.cs" />
+    <Compile Include="Tarea.2\AgendaHash.cs" />
+    <Compile Include="Tarea.2\ArregloEstudiante.cs" />
+    <Compile Include="Tarea.2\Cadenas.cs" />
+    <Compile Include="Tarea.2\Factorial.cs" />
+    <Compile Include="Tarea.2\FormatoFecha.cs" />
+    <Compile Include="Tarea.2\NumeroALetra.cs" />
+    <Compile Include="Tarea.2\PromedioArrayList.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
