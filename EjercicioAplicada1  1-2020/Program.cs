@@ -12,7 +12,81 @@ namespace EjercicioAplicada1__1_2020
     {
         static void Main(string[] args)
         {
-            //MENU DE LA TAREA 2                      Emminton Manuel
+
+            //                    MENU DE LA TAREA 3                     Emminton Manuel
+            int op;
+            string valor = "";
+            do
+            {
+
+                Console.WriteLine("\n\n1-AgendaHash.");
+                Console.WriteLine("2-Arreglo Estudiante");
+                Console.WriteLine("3-Mostrar una Cadena en orden ");
+                Console.WriteLine("4-Factorial .");
+                Console.WriteLine("5-Formato Fecha");
+                Console.WriteLine("6-Numero A Letra");
+                Console.WriteLine("7-Promedio ArrayList");
+                Console.WriteLine("8-Salir.\n\n");
+
+                Console.Write("Elija una Opcion..");
+                valor = Console.ReadLine();
+                op = Convert.ToInt32(valor);
+
+                switch (op)
+                {
+                    case 1:
+                        Console.WriteLine("El 5 del capitulo  7");
+                        AgendaHash mer = new AgendaHash();
+                        mer.agenda();
+                        break;
+
+                    case 2:
+                        Console.WriteLine("todos los Ejercicio del capitulo 6.");
+                        ArregloEstudiante im = new ArregloEstudiante();
+                        im.ComienzoDeEstudiantes();
+                        Console.ReadKey();
+                        break;
+
+                    case 3:
+                        Console.WriteLine("Ejercicio ");
+                        Cadenas poli = new Cadenas();
+                        poli.MostrarCadenas();
+                        break;
+                    case 4:
+                        Console.WriteLine("Ejercicio 4 del capitulo 5");
+                        Factorial radi = new Factorial();
+                        radi.calcularFactorial();
+                        break;
+                    case 5:
+                        Console.WriteLine("MostrarFechaHora");
+                        FormatoFecha tem = new FormatoFecha();
+                        tem.MostrarFechaHora();
+                        break;
+                    case 6:
+                        Console.WriteLine("5 del Capitulo 5");
+                        NumeroALetra nu = new NumeroALetra();
+                        nu.ConvertirNumeros();
+                        break;
+                    case 7:
+                        Console.WriteLine(" Calcular Promedio ArrayList");
+                        PromedioArrayList num = new PromedioArrayList();
+                        num.CalcularPromedioArrayList();
+                        break;
+
+                    case 8:
+                        Console.WriteLine("Acaba de Salir....");
+                        Environment.Exit(0);
+                        Console.ReadKey();
+                        break;
+                    default:
+                        Console.WriteLine("A cometido una opcion no valida, por fabor intentalo de nuevo..");
+                        break;
+                }
+
+            } while (op >= 1 && op <= 8);
+
+            /*
+            //              MENU DE LA TAREA 2                      Emminton Manuel
             int op;
             string valor = "";
             do
@@ -82,13 +156,13 @@ namespace EjercicioAplicada1__1_2020
                         break;
                 }
 
-            } while (op >= 1 && op <= 8);
+            } while (op >= 1 && op <= 8);*/
 
 
 
 
             /*
-            //MENU DE LA TAREA 1                      Emminton Manuel 
+            //                       MENU DE LA TAREA 1                      Emminton Manuel 
              int op;
              string valor = "";
              do

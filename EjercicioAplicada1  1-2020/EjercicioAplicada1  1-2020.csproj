@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -57,9 +58,15 @@
     <Compile Include="Tarea.2\FormatoFecha.cs" />
     <Compile Include="Tarea.2\NumeroALetra.cs" />
     <Compile Include="Tarea.2\PromedioArrayList.cs" />
+    <Compile Include="Tarea.3\Enumeracion.cs" />
+    <Compile Include="Tarea.3\EstructuraTienda.cs" />
+    <Compile Include="Tarea.3\Exepciones.cs" />
+    <Compile Include="Tarea.3\Factorial.cs" />
+    <Compile Include="Tarea.3\Poligono.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
